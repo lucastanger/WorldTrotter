@@ -28,6 +28,14 @@ class ConversionViewController: UIViewController {
         }
     }
     
+    let numberFormatter: NumberFormatter = {
+        let nf = NumberFormatter()
+        nf.numberStyle = .decimal
+        nf.minimumFractionDigits = 0
+        nf.maximumFractionDigits = 1
+        return nf
+    }()
+    
     @IBOutlet var textField: UITextField!
     
     @IBAction func fahrenheitFieldEditingChanged(_ textField: UITextField) {
@@ -50,7 +58,8 @@ class ConversionViewController: UIViewController {
     
     func updateCelsiusLabel() {
         if celsiusValue != nil {
-            celsiusLabel.text = "\(String(describing: celsiusValue))"
+//            celsiusLabel.text = "\(String(describing: celsiusValue))"
+            celsiusLabel.text = numberFormatter.string(from: NSNumber(value: celsiusValue?.value ?? 0))
         } else {
             celsiusLabel.text = "???"
         }
