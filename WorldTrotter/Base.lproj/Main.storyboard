@@ -57,6 +57,7 @@
                             </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.96078431372549022" green="0.95686274509803915" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="UAy-78-Xs4" firstAttribute="centerX" secondItem="HZx-zi-kYJ" secondAttribute="centerX" id="1Oy-8C-ggf"/>
                             <constraint firstItem="bDM-65-tpM" firstAttribute="top" secondItem="HZx-zi-kYJ" secondAttribute="bottom" constant="8" id="1Qe-DL-FGt"/>
@@ -73,12 +74,21 @@
                             <constraint firstItem="7tr-u5-Bpc" firstAttribute="centerX" secondItem="HZx-zi-kYJ" secondAttribute="centerX" id="wVO-Ml-NZ9"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="EqC-Qo-cbe" appends="YES" id="NaC-fe-RXd"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="celsiusLabel" destination="UAy-78-Xs4" id="w0k-o0-EhC"/>
+                        <outlet property="textField" destination="EZm-dT-gnx" id="z9L-Wa-pKU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="EqC-Qo-cbe">
+                    <connections>
+                        <action selector="dismissKeyboard:" destination="BYZ-38-t0r" id="Tr8-Iz-Lvt"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="139" y="94"/>
         </scene>
