@@ -30,8 +30,6 @@ class ConversionViewController: UIViewController {
     
     @IBOutlet var textField: UITextField!
     
-    
-    
     @IBAction func fahrenheitFieldEditingChanged(_ textField: UITextField) {
 //        celsiusLabel.text = textField.text
 //        if let text = textField.text, !text.isEmpty {
@@ -51,11 +49,16 @@ class ConversionViewController: UIViewController {
     }
     
     func updateCelsiusLabel() {
-        if let celsiusValue = celsiusValue {
-            celsiusLabel.text = "\(celsiusLabel)"
+        if celsiusValue != nil {
+            celsiusLabel.text = "\(String(describing: celsiusValue))"
         } else {
             celsiusLabel.text = "???"
         }
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        updateCelsiusLabel()
     }
     
 }
