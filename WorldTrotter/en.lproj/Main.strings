@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "degrees Celsius"; ObjectID = "7tr-u5-Bpc"; */
+"7tr-u5-Bpc.text" = "degrees Celsius";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "Cwp-47-9Ld"; */
+"Cwp-47-9Ld.title" = "Item";
+
+/* Class = "UITextField"; placeholder = "value"; ObjectID = "EZm-dT-gnx"; */
+"EZm-dT-gnx.placeholder" = "value";
+
+/* Class = "UILabel"; text = "degrees Fahrenheit"; ObjectID = "HZx-zi-kYJ"; */
+"HZx-zi-kYJ.text" = "degrees Fahrenheit";
+
+/* Class = "UITabBarItem"; title = "Convert"; ObjectID = "Nfz-kn-ORM"; */
+"Nfz-kn-ORM.title" = "Convert";
+
+/* Class = "UIButton"; normalTitle = "Show Pins"; ObjectID = "Ojn-p1-7wX"; */
+"Ojn-p1-7wX.normalTitle" = "Show Pins";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "UAy-78-Xs4"; */
+"UAy-78-Xs4.text" = "100";
+
+/* Class = "UILabel"; text = "is really"; ObjectID = "bDM-65-tpM"; */
+"bDM-65-tpM.text" = "is really";
+
+/* Class = "UIButton"; normalTitle = "Show current Location"; ObjectID = "lz8-gJ-4ah"; */
+"lz8-gJ-4ah.normalTitle" = "Show current Location";
+
+/* Class = "UITabBarItem"; title = "Map"; ObjectID = "zie-Lj-Sl3"; */
+"zie-Lj-Sl3.title" = "Map";
