@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C1DC3D7241FBE3B00BECCEA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C1DC3D9241FBE3B00BECCEA /* Localizable.strings */; };
 		2CCD7D90240D4A9A00E3136A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD7D8F240D4A9A00E3136A /* AppDelegate.swift */; };
 		2CCD7D92240D4A9A00E3136A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCD7D91240D4A9A00E3136A /* SceneDelegate.swift */; };
 		2CCD7D97240D4A9A00E3136A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CCD7D95240D4A9A00E3136A /* Main.storyboard */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C1DC3D8241FBE3B00BECCEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2C1DC3DA241FBE4500BECCEA /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		2C710E1D241FBB9A00A4F1A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		2C710E1E241FBBC100A4F1A5 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
 		2CCD7D8C240D4A9A00E3136A /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +108,7 @@
 		2CCD7D8E240D4A9A00E3136A /* WorldTrotter */ = {
 			isa = PBXGroup;
 			children = (
+				2C1DC3D9241FBE3B00BECCEA /* Localizable.strings */,
 				2CCD7D8F240D4A9A00E3136A /* AppDelegate.swift */,
 				2CCD7D91240D4A9A00E3136A /* SceneDelegate.swift */,
 				2CCD7D95240D4A9A00E3136A /* Main.storyboard */,
@@ -242,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CCD7D9C240D4A9E00E3136A /* LaunchScreen.storyboard in Resources */,
+				2C1DC3D7241FBE3B00BECCEA /* Localizable.strings in Resources */,
 				2CCD7D99240D4A9E00E3136A /* Assets.xcassets in Resources */,
 				2CCD7D97240D4A9A00E3136A /* Main.storyboard in Resources */,
 			);
@@ -308,6 +313,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		2C1DC3D9241FBE3B00BECCEA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C1DC3D8241FBE3B00BECCEA /* en */,
+				2C1DC3DA241FBE4500BECCEA /* de */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		2CCD7D95240D4A9A00E3136A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
